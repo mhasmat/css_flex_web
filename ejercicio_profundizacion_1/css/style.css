@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 1200px;
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 20px;
+}
+
+.children {
+    width: 250px;
+    height: 250px;
+    border-radius: 15px;
+    background-color: blueviolet;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+    font-weight: 700;
+    color: bisque;
+    border: 0.5px solid orange;
+    box-shadow: 3px 3px 3px gray;
+}
+
+.container .children img {
+    height: 100px;
+}
